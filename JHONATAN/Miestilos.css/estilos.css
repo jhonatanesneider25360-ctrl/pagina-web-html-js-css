@@ -1,0 +1,108 @@
+h1{
+    font-size: 80px;
+    color:rgb(0, 0, 0);
+    text-shadow:  4px 4px 5px rgb(62, 240, 232);
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgba(255, 255, 255, 0.949);
+
+}
+h1:hover{
+    font-size: 100px;
+    color: lch(54.65% 88.13 27.08);
+    text-shadow: 7px 7px 15px rgb(0, 0, 0);;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 1.1s;
+}
+.contenedor-botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+button{
+    font-size: 20px;
+    background-color: rgb(62, 240, 232);
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow:2px 2px 5px  rgb(25, 255, 59);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+button:hover{
+    font-size: 35px;
+    background-color: rgb(25, 255, 59);
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 15px rgb(62, 240, 232);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 20px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+
+    transform: scale(0.8);
+}
+.boton_pordefecto{
+    font-size: 20px;
+    background-color: rgb(62, 240, 232);
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow:2px 2px 5px  rgb(25, 255, 59);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.boton_rojo{
+    font-size: 20px;
+    background-color: rgb(255, 56, 33);
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow:2px 2px 5px  rgb(25, 255, 59);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.boton_volver{
+    font-size: 20px;
+    background-color: rgb(255, 56, 33);
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow:2px 2px 5px  rgb(25, 255, 59);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+#palabras{
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    gap: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+#palabras span{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+body{
+    text-align: center;
+    background-color:rgba(26, 42, 192, 0.933);
+}
+
+p{
+    color: red;
+}
